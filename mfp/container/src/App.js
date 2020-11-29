@@ -1,5 +1,12 @@
 import React from "react";
 
+import { mount as MarketingApp } from "marketing/MarketingApp";
+
 export default () => {
-  return <div>Hello</div>;
+  return (
+    <div>
+      Hello
+      {/* <MarketingApp /> */}
+    </div>
+  );
 };
