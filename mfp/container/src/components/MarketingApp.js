@@ -6,7 +6,11 @@ export default () => {
   const ref = useRef(null);
 
   useEffect(() => {
-    mount(ref.current);
+    mount(ref.current, {
+      onNavigate: () => {
+        console.log("The conteiner noticed navigation in Marketing");
+      },
+    });
   }, []);
 
   return <div ref={ref} />;
