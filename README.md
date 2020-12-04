@@ -2,4 +2,4 @@
 
 Build incredibly scalable apps with a microfrontend architecture
 
-https://www.udemy.com/course/microfrontend-course/
+[Udemy Course](https://www.udemy.com/course/microfrontend-course/)
